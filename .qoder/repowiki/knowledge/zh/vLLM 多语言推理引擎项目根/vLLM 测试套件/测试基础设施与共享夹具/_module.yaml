@@ -1,0 +1,10 @@
+schema_version: 1
+module_path: tests/root_level_tests
+title: 测试基础设施与共享夹具
+scope:
+    - tests/conftest.py
+    - tests/utils.py
+    - tests/ci_envs.py
+source_files: []
+depends_on: []
+related_to: []

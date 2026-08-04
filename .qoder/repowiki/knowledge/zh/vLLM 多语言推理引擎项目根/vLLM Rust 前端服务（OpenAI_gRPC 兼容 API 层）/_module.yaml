@@ -1,0 +1,8 @@
+schema_version: 1
+module_path: rust_frontend
+title: vLLM Rust 前端服务（OpenAI/gRPC 兼容 API 层）
+scope:
+    - rust/
+source_files: []
+depends_on: []
+related_to: []

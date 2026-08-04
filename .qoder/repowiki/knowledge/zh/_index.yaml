@@ -1,0 +1,197 @@
+# 知识卡导出索引文件
+schema_version: 1
+locale: zh-CN
+branch: main
+nodes_managed: true
+exported_at: "2026-08-04T10:06:30Z"
+modules:
+    "":
+        dir_name: vLLM 多语言推理引擎项目根
+        title: vLLM 多语言推理引擎项目根
+        scope:
+            - README.md
+            - CONTRIBUTING.md
+            - .gitignore
+            - pyproject.toml
+            - setup.py
+            - CMakeLists.txt
+            - mkdocs.yaml
+            - .clang-format
+            - .coveragerc
+            - .dockerignore
+            - .git-blame-ignore-revs
+            - .markdownlint.yaml
+            - .pre-commit-config.yaml
+            - .readthedocs.yaml
+            - .shellcheckrc
+            - AGENTS.md
+            - CLAUDE.md
+            - CODE_OF_CONDUCT.md
+            - DCO
+            - LICENSE
+            - MANIFEST.in
+            - RELEASE.md
+            - SECURITY.md
+            - build_rust.sh
+            - build_vllm_ppc64le.sh
+            - codecov.yml
+            - rust-toolchain.toml
+            - use_existing_torch.py
+        source_files: []
+        children:
+            - benchmarks
+            - build_and_docker
+            - ci_pipeline
+            - documentation
+            - examples
+            - native_extensions
+            - requirements
+            - rust_frontend
+            - tests
+            - tools_and_scripts
+            - vllm_core
+        depends_on: []
+        related_to: []
+    benchmarks:
+        dir_name: vLLM 性能基准测试套件
+        title: vLLM 性能基准测试套件
+        scope:
+            - benchmarks/
+        source_files: []
+        children: []
+        depends_on: []
+        related_to: []
+    build_and_docker:
+        dir_name: Docker 镜像构建与 CMake 扩展编译系统
+        title: Docker 镜像构建与 CMake 扩展编译系统
+        scope:
+            - docker/
+            - cmake/
+        source_files: []
+        children: []
+        depends_on: []
+        related_to: []
+    ci_pipeline:
+        dir_name: BuildKite CI_CD 流水线与发布编排
+        title: BuildKite CI/CD 流水线与发布编排
+        scope:
+            - .buildkite/
+        source_files: []
+        children: []
+        depends_on: []
+        related_to: []
+    documentation:
+        dir_name: vLLM 文档站点与 MkDocs 构建系统
+        title: vLLM 文档站点与 MkDocs 构建系统
+        scope:
+            - docs/
+        source_files: []
+        children: []
+        depends_on: []
+        related_to: []
+    examples:
+        dir_name: vLLM 示例与演示集
+        title: vLLM 示例与演示集
+        scope:
+            - examples/
+        source_files: []
+        children: []
+        depends_on: []
+        related_to: []
+    native_extensions:
+        dir_name: vLLM C++_CUDA 原生扩展集合
+        title: vLLM C++/CUDA 原生扩展集合
+        scope:
+            - csrc/
+        source_files: []
+        children:
+            - native_extensions/bindings_and_runtime
+            - native_extensions/core
+        depends_on: []
+        related_to: []
+    native_extensions/bindings_and_runtime:
+        dir_name: PyTorch C++ 扩展绑定与底层运行时
+        title: PyTorch C++ 扩展绑定与底层运行时
+        scope:
+            - csrc/torch_bindings.cpp
+            - csrc/qutlass_registration.cpp
+            - csrc/fs_io.cpp
+            - csrc/cumem_allocator.cpp
+            - csrc/custom_quickreduce.cu
+            - csrc/spinloop.cpp
+        source_files: []
+        children: []
+        depends_on: []
+        related_to: []
+    native_extensions/core:
+        dir_name: CUDA_C++ 核心工具与算子声明
+        title: CUDA/C++ 核心工具与算子声明
+        scope:
+            - csrc/cache.h
+            - csrc/cuda_compat.h
+            - csrc/cuda_utils.h
+            - csrc/dispatch_utils.h
+            - csrc/ops.h
+            - csrc/torch_utils.h
+        source_files: []
+        children: []
+        depends_on: []
+        related_to: []
+    requirements:
+        dir_name: Python 依赖与构建产物管理
+        title: Python 依赖与构建产物管理
+        scope:
+            - requirements/
+        source_files: []
+        children: []
+        depends_on: []
+        related_to: []
+    rust_frontend:
+        dir_name: vLLM Rust 前端服务（OpenAI_gRPC 兼容 API 层）
+        title: vLLM Rust 前端服务（OpenAI/gRPC 兼容 API 层）
+        scope:
+            - rust/
+        source_files: []
+        children: []
+        depends_on: []
+        related_to: []
+    tests:
+        dir_name: vLLM 测试套件
+        title: vLLM 测试套件
+        scope:
+            - tests/
+        source_files: []
+        children:
+            - tests/root_level_tests
+        depends_on: []
+        related_to: []
+    tests/root_level_tests:
+        dir_name: 测试基础设施与共享夹具
+        title: 测试基础设施与共享夹具
+        scope:
+            - tests/conftest.py
+            - tests/utils.py
+            - tests/ci_envs.py
+        source_files: []
+        children: []
+        depends_on: []
+        related_to: []
+    tools_and_scripts:
+        dir_name: 构建工具、预提交检查与性能分析脚本集
+        title: 构建工具、预提交检查与性能分析脚本集
+        scope:
+            - tools/
+            - scripts/
+        source_files: []
+        children: []
+        depends_on: []
+        related_to: []
+    vllm_core:
+        dir_name: vLLM 核心推理引擎与入口层
+        title: vLLM 核心推理引擎与入口层
+        scope:
+            - vllm/
+        source_files: []
+        children: []
+        depends_on: []
+        related_to: []

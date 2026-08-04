@@ -1,0 +1,35 @@
+schema_version: 1
+module_path: ""
+title: vLLM 多语言推理引擎项目根
+scope:
+    - README.md
+    - CONTRIBUTING.md
+    - .gitignore
+    - pyproject.toml
+    - setup.py
+    - CMakeLists.txt
+    - mkdocs.yaml
+    - .clang-format
+    - .coveragerc
+    - .dockerignore
+    - .git-blame-ignore-revs
+    - .markdownlint.yaml
+    - .pre-commit-config.yaml
+    - .readthedocs.yaml
+    - .shellcheckrc
+    - AGENTS.md
+    - CLAUDE.md
+    - CODE_OF_CONDUCT.md
+    - DCO
+    - LICENSE
+    - MANIFEST.in
+    - RELEASE.md
+    - SECURITY.md
+    - build_rust.sh
+    - build_vllm_ppc64le.sh
+    - codecov.yml
+    - rust-toolchain.toml
+    - use_existing_torch.py
+source_files: []
+depends_on: []
+related_to: []

@@ -1,0 +1,8 @@
+schema_version: 1
+module_path: requirements
+title: Python 依赖与构建产物管理
+scope:
+    - requirements/
+source_files: []
+depends_on: []
+related_to: []

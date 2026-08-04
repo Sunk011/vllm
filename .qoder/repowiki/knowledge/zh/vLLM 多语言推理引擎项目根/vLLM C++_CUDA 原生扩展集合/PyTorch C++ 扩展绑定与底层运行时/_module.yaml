@@ -1,0 +1,13 @@
+schema_version: 1
+module_path: native_extensions/bindings_and_runtime
+title: PyTorch C++ 扩展绑定与底层运行时
+scope:
+    - csrc/torch_bindings.cpp
+    - csrc/qutlass_registration.cpp
+    - csrc/fs_io.cpp
+    - csrc/cumem_allocator.cpp
+    - csrc/custom_quickreduce.cu
+    - csrc/spinloop.cpp
+source_files: []
+depends_on: []
+related_to: []

@@ -1,0 +1,9 @@
+schema_version: 1
+module_path: tools_and_scripts
+title: 构建工具、预提交检查与性能分析脚本集
+scope:
+    - tools/
+    - scripts/
+source_files: []
+depends_on: []
+related_to: []

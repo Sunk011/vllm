@@ -1,0 +1,8 @@
+schema_version: 1
+module_path: ci_pipeline
+title: BuildKite CI/CD 流水线与发布编排
+scope:
+    - .buildkite/
+source_files: []
+depends_on: []
+related_to: []

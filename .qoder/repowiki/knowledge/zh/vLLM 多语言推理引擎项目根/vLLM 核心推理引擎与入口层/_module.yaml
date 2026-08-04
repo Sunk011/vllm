@@ -1,0 +1,8 @@
+schema_version: 1
+module_path: vllm_core
+title: vLLM 核心推理引擎与入口层
+scope:
+    - vllm/
+source_files: []
+depends_on: []
+related_to: []
